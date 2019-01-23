@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: petclinic-test
-        image: dcanadillas/spring-petclinic:latest
+        image: stefku/spring-petclinic:latest
         imagePullPolicy: Always
         command:
         ports:
