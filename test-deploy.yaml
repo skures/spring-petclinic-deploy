@@ -28,7 +28,7 @@ apiVersion: v1
 metadata:
   name: petclinic-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: petclinic
   ports:
