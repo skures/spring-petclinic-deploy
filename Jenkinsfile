@@ -7,7 +7,7 @@ pipeline {
         }
     }
     triggers {
-        eventTrigger simpleMatch('dcanadillas/spring-petclinic:latest')
+        eventTrigger simpleMatch('skures/spring-petclinic:latest')
     }
     stages {
         stage('Deploy') {
